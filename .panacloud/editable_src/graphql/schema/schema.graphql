@@ -1,0 +1,40 @@
+scalar AWSDate
+scalar AWSTime
+scalar AWSDateTime
+scalar AWSTimestamp
+scalar AWSEmail
+scalar AWSJSON
+scalar AWSURL
+scalar AWSPhone
+scalar AWSIPAddress
+
+type Todo {
+  id: Int
+  text: String!
+  completed: Boolean!
+}
+
+input CreateTodoInput {
+  text: String!
+  completed: Boolean!
+}
+
+input UpdateTodoInput {
+  id: Int
+  text: String
+  completed: Boolean
+}
+
+input DeleteTodoInput {
+  id: Int
+}
+
+type Query {
+  listTodos: [Todo]
+}
+
+type Mutation {
+  createTodo(input: CreateTodoInput!): Todo
+  deleteTodo(input: DeleteTodoInput!): Todo
+  updateTodo(input: UpdateTodoInput!): Todo
+}

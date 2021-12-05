@@ -1,0 +1,7 @@
+query listTodos{
+    listTodos{
+        id
+        text
+        completed
+    }
+}

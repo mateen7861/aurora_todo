@@ -1,0 +1,22 @@
+{
+  "lambdas": {
+    "listTodos": {
+      "asset_path": "editable_src/lambda_stubs/listTodos/index.ts",
+      "is_mock": false
+    },
+    "createTodo": {
+      "asset_path": "editable_src/lambda_stubs/createTodo/index.ts",
+      "is_mock": false
+    },
+    "deleteTodo": {
+      "asset_path": "editable_src/lambda_stubs/deleteTodo/index.ts",
+      "is_mock": false
+    },
+    "updateTodo": {
+      "asset_path": "editable_src/lambda_stubs/updateTodo/index.ts",
+      "is_mock": false
+    }
+  },
+  "mockLambdaLayer": { "asset_path": "mock_lambda_layer" },
+  "stages": ["prd", "dev"]
+}
