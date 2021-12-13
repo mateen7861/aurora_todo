@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/data-api-client": "^1.2.3",
     "axios": "^0.21.1",
     "data-api-client": "^1.2.0",
     "lodash.isequal": "^4.5.0"

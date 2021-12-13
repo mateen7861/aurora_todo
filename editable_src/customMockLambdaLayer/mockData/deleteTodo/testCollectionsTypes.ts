@@ -3,7 +3,7 @@ import {
   MutationCreateTodoArgs,
   MutationDeleteTodoArgs,
   MutationUpdateTodoArgs,
-} from "../types";
+} from "../../../../types/types";
 
 export type TestCollection = {
   fields: {
